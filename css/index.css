@@ -1,0 +1,187 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+/* 引入图标 */
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1687771 */
+  src: url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.eot');
+  src: url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1687771_3eivvahuhyg.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 970px;
+  }
+}
+.margin_bottom_40{
+  margin-bottom: 40px;
+}
+.page_box_wrap .container{
+
+}
+.top_nav {
+  background: #f5f5f5;
+  height: 35px;
+  line-height: 35px;
+}
+.top_nav_login{
+  text-align: right;
+}
+.logo_wrap{
+  height: 88px;
+}
+.logo_bg{
+  display: block;
+  width: 88px;
+  height: 88px;
+  background: url(../images/log_icon.png) no-repeat center;
+  background-size: 88px;
+}
+.search_box{
+  padding-top: 24px;
+}
+.book_shelf{
+  padding-top: 24px;
+  text-align: center;
+}
+.main_nav_wrap{
+  background: blueviolet;
+  color: #FFF;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.main_nav{
+  height: 40px;
+  line-height: 40px;
+}
+.main_nav a{
+  display: block;
+  color: #FFF;
+  padding: 0 12px;
+}
+/* 首页第一种类型的排版方式 */
+.calss_nav{
+  padding:0;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #e6e6e6;
+  border-top: none;
+  top: -11px;
+  padding-bottom: 10px;
+}
+.class_nav_tiem{
+  width: 50%;
+  text-align: center;
+  position: relative;
+  display: block;
+  height: 52px;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+.class_nav_tiem a{
+  display: block;
+}
+.class_nav_tiem a:hover{
+  color: #ed4259;
+}
+.class_nav_tiem em{
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 2px 8px 0 0;
+  transition: margin ease-out .3s;
+}
+
+.class_nav_tiem .info{
+  float: left;
+  max-width: 42px;
+}
+.class_nav_tiem .info i,
+.class_nav_tiem .info b{
+  display: block;
+  cursor: pointer;
+  text-align: left;
+}
+.class_nav_tiem .info i{
+  font: 14px/1 'PingFangSC-Regular','-apple-system','Simsun';
+  white-space: nowrap;
+}
+.class_nav_tiem .info b {
+  font: 12px/1.5 Arial;
+  transition: color .2s;
+  color: #999;
+}
+.notice {
+  position: relative;
+  width: 214px;
+  height: 248px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  background: #fcfcfa;
+}
+
+
+/* 第二种排版方式 */
+.home_type2 .col-md-3 {
+  margin-right: 20px;
+}
+.book_list_wrap{
+  padding: 0;
+}
+.book_list_wrap h3 {
+  width: 100%;
+  padding: 0 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #666666;
+}
+.book_list{
+  width: 100%;
+  padding: 0 4px;
+  min-height: 300px;;
+}
+.book_list_item{
+  display: flex;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  height: 32px;
+  line-height: 32px;
+  justify-content: space-between;
+}
+.book_list_item:last-child{
+  border-bottom: none;
+}
+.book_list_item strong{
+  padding: 0 6px;
+}
+.book_list_item .author{
+  float: right;
+}
+/* 页尾 */
+.page_footer{
+  border-top: 2px solid salmon;
+  padding-top: 24px;
+  text-align: center;
+}
